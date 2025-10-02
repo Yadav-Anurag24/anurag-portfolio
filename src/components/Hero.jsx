@@ -1,4 +1,5 @@
 import React from 'react'
+import Profile from '../assets/profile1.jpg'
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
         <div className="profile-placeholder">
 
           <img 
-            src="../src/assets/profile1.jpg" 
+            src={Profile} 
             alt="Anurag's Profile" 
             className="profile-img"
           />
